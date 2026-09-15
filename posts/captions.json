@@ -1,0 +1,47 @@
+{
+  "2026-09-14-bias-variance-tradeoff.png": {
+    "topic": "The Bias-Variance Tradeoff",
+    "caption": "The bias-variance tradeoff, explained in one curve \ud83d\udcc9\n\nEvery model faces this: go too simple and you're consistently wrong (bias). Go too complex and you memorize noise instead of signal (variance). The best model isn't the most powerful one \u2014 it's the one that balances both.\n\n\ud83d\udd0d How to find your sweet spot: cross-validation, learning curves, or a held-out validation set.\n\nSwipe through the series for more daily data science & ML concepts \ud83d\udc49 follow for more\n\n#machinelearning #datascience #statistics #biasvariance #mlengineering #datascience101 #ai #model",
+    "posted": true
+  },
+  "2026-09-16-correlation-vs-causation.png": {
+    "topic": "Correlation vs Causation",
+    "caption": "Correlation isn't causation \ud83d\udd0e\n\nTwo variables can move together without either one causing the other. A hidden third factor \u2014 a confounder \u2014 can be driving both at once. Before you claim causation, rule out confounders, reverse causation, and plain coincidence.\n\nSwipe through the series for more daily data science & ML concepts \ud83d\udc49 follow for more\n\n#datascience #statistics #correlation #causation #dataanalytics #datascience101 #criticalthinking",
+    "posted": false
+  },
+  "2026-09-17-precision-vs-recall.png": {
+    "topic": "Precision vs Recall",
+    "caption": "Precision vs. recall: two different questions \ud83c\udfaf\n\nPrecision asks: of everything I flagged, how much was actually right? Recall asks: of everything that truly mattered, how much did I catch? A model can be great at one and terrible at the other \u2014 choose based on the real cost of a false positive vs. a missed case.\n\nSwipe through the series for more daily data science & ML concepts \ud83d\udc49 follow for more\n\n#machinelearning #confusionmatrix #precision #recall #mlengineering #datascience101 #ai",
+    "posted": false
+  },
+  "2026-09-18-central-limit-theorem.png": {
+    "topic": "Central Limit Theorem",
+    "caption": "The Central Limit Theorem, visually \ud83d\udd14\n\nTake repeated random samples and average each one \u2014 no matter how skewed the original population is, the distribution of those sample means converges toward a normal curve as sample size grows. It's why confidence intervals and t-tests work almost everywhere.\n\nSwipe through the series for more daily data science & ML concepts \ud83d\udc49 follow for more\n\n#statistics #datascience #centrallimittheorem #probability #datascience101 #mathematics",
+    "posted": false
+  },
+  "2026-09-19-train-test-leakage.png": {
+    "topic": "Data Leakage",
+    "caption": "Data leakage: your model is cheating \ud83d\udea8\n\nIf information from the test set sneaks into training \u2014 even indirectly, through a scaler or feature fit on the full dataset \u2014 your model looks great on paper and quietly fails the moment it meets real data. Avoid it by splitting first, then fitting every transform on the training set only.\n\nSwipe through the series for more daily data science & ML concepts \ud83d\udc49 follow for more\n\n#machinelearning #dataleakage #mlengineering #datascience101 #modeltraining #ai",
+    "posted": false
+  },
+  "2026-09-20-ab-testing.png": {
+    "topic": "A/B Testing & Statistical Significance",
+    "caption": "Is that A/B test result even real? \ud83e\uddea\n\nVariant B looks better \u2014 but with small samples, random noise alone can produce a gap this size. A significance test asks: how likely is this result if there were truly no difference at all? Before you ship the winner, check sample size, test duration, and whether p < 0.05.\n\nSwipe through the series for more daily data science & ML concepts \ud83d\udc49 follow for more\n\n#abtesting #statistics #datascience #experimentation #datascience101 #productanalytics",
+    "posted": false
+  },
+  "2026-09-21-l1-vs-l2-regularization.png": {
+    "topic": "L1 vs L2 Regularization",
+    "caption": "L1 vs. L2: two ways to penalize \u2696\ufe0f\n\nBoth add a penalty for large weights, but the shape of that penalty matters. L1's sharp corners tend to zero out weights entirely (built-in feature selection). L2's smooth circle shrinks everything a little. Rule of thumb: L1 for sparse, interpretable models; L2 when most features carry at least some signal.\n\nSwipe through the series for more daily data science & ML concepts \ud83d\udc49 follow for more\n\n#machinelearning #regularization #lasso #ridge #mlengineering #datascience101",
+    "posted": false
+  },
+  "2026-09-22-confidence-intervals.png": {
+    "topic": "Confidence Intervals",
+    "caption": "What a 95% confidence interval really means \ud83d\udcd0\n\nIt's NOT \"a 95% chance the true value is in this one interval.\" It means: if you repeated this study many times, about 95% of the intervals you'd build would contain the true value \u2014 this one might not.\n\nSwipe through the series for more daily data science & ML concepts \ud83d\udc49 follow for more\n\n#statistics #confidenceinterval #datascience #datascience101 #hypothesistesting",
+    "posted": false
+  },
+  "2026-09-23-k-fold-cross-validation.png": {
+    "topic": "K-Fold Cross-Validation",
+    "caption": "One test set isn't enough \u2014 use k folds \ud83d\udd01\n\nSplit the data into k parts. Train on k-1 of them, validate on the one left out, then rotate which part is held out until every fold has had a turn. Average the k scores for a far more reliable performance estimate. Common choice: k = 5 or k = 10.\n\nSwipe through the series for more daily data science & ML concepts \ud83d\udc49 follow for more\n\n#machinelearning #crossvalidation #mlengineering #datascience101 #modelvalidation #ai",
+    "posted": false
+  }
+}
